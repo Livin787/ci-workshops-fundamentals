@@ -89,3 +89,8 @@ ntp:
 
 clock:
   timezone: EST5EDT
+
+
+ip_http_client_source_interfaces:
+  - name: Loopback0
+    vrf: MGMT
