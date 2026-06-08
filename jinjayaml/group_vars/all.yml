@@ -37,10 +37,10 @@ radius_servers:
 
 # HTTP Client source interface and VRF
 # CLI Syntax: ip http client local-interface <interface> vrf <vrfname>
-ip_radius_source_interfaces:
-  - name: Management1
-    vrf: MGMT
-
+#ip_radius_source_interfaces:
+#  - name: Management1
+#    vrf: MGMT
+#
 # RADIUS source interface and VRF
 # CLI Syntax: ip radius vrf <vrfname> source-interface <interface>
 # 
